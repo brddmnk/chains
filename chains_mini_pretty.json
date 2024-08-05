@@ -1711,7 +1711,7 @@
     "symbol": "HSK",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://hashkeychain-testnet.alt.technology"],
   "faucets": [],
   "infoURL": "https://hashkey.cloud"
 }, {
@@ -5433,18 +5433,18 @@
   "faucets": [],
   "infoURL": "https://gton.capital"
 }, {
-  "name": "Klaytn Testnet Baobab",
+  "name": "Kaia Testnet Kairos",
   "chainId": 1001,
-  "shortName": "Baobab",
+  "shortName": "kaia-kairos",
   "networkId": 1001,
   "nativeCurrency": {
-    "name": "KLAY",
-    "symbol": "KLAY",
+    "name": "KAIA",
+    "symbol": "KAIA",
     "decimals": 18
   },
-  "rpc": ["https://public-en-baobab.klaytn.net", "https://api.baobab.klaytn.net:8651"],
-  "faucets": ["https://baobab.wallet.klaytn.com/access?next=faucet"],
-  "infoURL": "https://klaytn.foundation"
+  "rpc": ["https://public-en.kairos.node.kaia.io"],
+  "faucets": ["https://faucet.kaia.io"],
+  "infoURL": "https://kaia.io/"
 }, {
   "name": "Tectum Emission Token",
   "chainId": 1003,
@@ -7877,7 +7877,7 @@
   "faucets": [],
   "infoURL": "https://polytopia.org/"
 }, {
-  "name": "NOW Chain",
+  "name": "NOW Chain Testnet",
   "chainId": 2014,
   "shortName": "now",
   "networkId": 2014,
@@ -7886,8 +7886,8 @@
     "symbol": "NOW",
     "decimals": 18
   },
-  "rpc": ["https://rpc.nowscan.io"],
-  "faucets": [],
+  "rpc": ["https://rpc-testnet.nowscan.io"],
+  "faucets": ["https://faucet.nowchain.co"],
   "infoURL": "https://nowchain.co"
 }, {
   "name": "MainnetZ Mainnet",
@@ -9124,6 +9124,19 @@
   "rpc": ["https://rpc-quicknode-holesky.morphl2.io", "wss://rpc-quicknode-holesky.morphl2.io", "https://rpc-holesky.morphl2.io"],
   "faucets": [],
   "infoURL": "https://morphl2.io"
+}, {
+  "name": "Chips Network",
+  "chainId": 2882,
+  "shortName": "chips",
+  "networkId": 2882,
+  "nativeCurrency": {
+    "name": "IOTA",
+    "symbol": "IOTA",
+    "decimals": 18
+  },
+  "rpc": ["https://node.chips.ooo/wasp/api/v1/chains/iota1pp3d3mnap3ufmgqnjsnw344sqmf5svjh26y2khnmc89sv6788y3r207a8fn/evm"],
+  "faucets": [],
+  "infoURL": "https://www.chips.ooo"
 }, {
   "name": "Boba Network Goerli Testnet",
   "chainId": 2888,
@@ -12167,18 +12180,18 @@
   "faucets": [],
   "infoURL": "https://docs.toruschain.com"
 }, {
-  "name": "Klaytn Mainnet Cypress",
+  "name": "Kaia Mainnet",
   "chainId": 8217,
-  "shortName": "Cypress",
+  "shortName": "kaia-mainnet",
   "networkId": 8217,
   "nativeCurrency": {
-    "name": "KLAY",
-    "symbol": "KLAY",
+    "name": "KAIA",
+    "symbol": "KAIA",
     "decimals": 18
   },
   "rpc": ["https://public-en-cypress.klaytn.net"],
   "faucets": [],
-  "infoURL": "https://klaytn.foundation"
+  "infoURL": "https://kaia.io"
 }, {
   "name": "Space Subnet",
   "chainId": 8227,
@@ -12374,6 +12387,19 @@
   "rpc": ["https://testnet-validator.storagechain.io"],
   "faucets": [],
   "infoURL": "https://storagechain.io/about-us"
+}, {
+  "name": "Bullions Smart Chain",
+  "chainId": 8732,
+  "shortName": "bln",
+  "networkId": 8732,
+  "nativeCurrency": {
+    "name": "Bullions",
+    "symbol": "BLN",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.bullionsx.org"],
+  "faucets": [],
+  "infoURL": "https://www.bullionsx.io"
 }, {
   "name": "Alph Network",
   "chainId": 8738,
@@ -13270,7 +13296,7 @@
   },
   "rpc": ["https://web3.metanovaverse.com"],
   "faucets": [],
-  "infoURL": "https://www.blockxnet.com/"
+  "infoURL": "https://metanovaverse.com/"
 }, {
   "name": "Blockchain Genesis Mainnet",
   "chainId": 10101,
@@ -14613,14 +14639,14 @@
 }, {
   "name": "BlockX Mainnet",
   "chainId": 19191,
-  "shortName": "bcxt",
+  "shortName": "bcx",
   "networkId": 19191,
   "nativeCurrency": {
-    "name": "BCXT",
-    "symbol": "BCXT",
+    "name": "BCX",
+    "symbol": "BCX",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://web3.blockxnet.com"],
   "faucets": ["https://ping.blockxnet.com/blockx/faucet"],
   "infoURL": "https://www.blockxnet.com/"
 }, {
@@ -15624,6 +15650,19 @@
   "rpc": ["https://api.devnet.zilliqa.com/"],
   "faucets": ["https://faucet.devnet.zilliqa.com/"],
   "infoURL": "https://www.zilliqa.com/"
+}, {
+  "name": "SlingShot",
+  "chainId": 33401,
+  "shortName": "slingshot",
+  "networkId": 33401,
+  "nativeCurrency": {
+    "name": "Sling",
+    "symbol": "SLING",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.slingshotdao.com"],
+  "faucets": [],
+  "infoURL": "https://slingshotdao.com"
 }, {
   "name": "Zilliqa-2 EVM Devnet",
   "chainId": 33469,
@@ -17588,6 +17627,19 @@
   "faucets": [],
   "infoURL": "https://www.smartlayer.network/"
 }, {
+  "name": "Xprotocol Testnet",
+  "chainId": 83144,
+  "shortName": "xprotocoltestnet",
+  "networkId": 83144,
+  "nativeCurrency": {
+    "name": "KICK Testnet Token",
+    "symbol": "KICK",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.xprotocol.org"],
+  "faucets": ["https://xprotocol.org/faucets"],
+  "infoURL": "https://xprotocol.org/"
+}, {
   "name": "ZEDXION",
   "chainId": 83872,
   "shortName": "ZEDX",
@@ -17899,6 +17951,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://boba.network"
+}, {
+  "name": "SlingShot Testnet",
+  "chainId": 97435,
+  "shortName": "sling",
+  "networkId": 97435,
+  "nativeCurrency": {
+    "name": "Sling Test",
+    "symbol": "SLINGT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc-dependent-emerald-whippet-gh6kch3nen.t.conduit.xyz"],
+  "faucets": [],
+  "infoURL": "https://slingshotdao.com"
 }, {
   "name": "Green Chain Testnet",
   "chainId": 97531,
